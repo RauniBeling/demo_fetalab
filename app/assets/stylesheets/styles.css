@@ -1,0 +1,57 @@
+/* Estilo para o cabeçalho h1 */
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #search-form {
+    margin-bottom: 20px;
+  }
+  
+  #search-form input[type="text"] {
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .center-content {
+    margin: 0 auto;
+    
+  }
+
+  .user-row:nth-child(odd) {
+    background-color: #f2f2f2; 
+  }
+  
+  .user-row:hover {
+    background-color: #007bff; 
+    color: #fff; 
+  }
